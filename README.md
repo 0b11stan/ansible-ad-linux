@@ -1,2 +1,2 @@
 ## Description
-This is an example Ansible playbook that will join a Debian based linux server to an Active Directory domain.  Many thanks to [Wolfhaven](http://www.wolffhaven45.com/blog/linux/join_ubuntu_workstation_windows_domain/) for his blog on the topic.
+This is an example Ansible playbook that will join an Ubuntu based linux server to an Active Directory domain.  Many thanks to [Tvories](https://github.com/tvories) for his repo, couldn't fork it at the moment of the creation sorry dude.
