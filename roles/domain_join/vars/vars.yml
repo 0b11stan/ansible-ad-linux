@@ -1,0 +1,6 @@
+---
+
+realm_domain: epsi.intra
+# It is important that krb5 domain is in ALL CAPITALS
+krb5_default_realm: EPSI.INTRA
+realm_ad_ou: OU=I4,DC=EPSI,DC=INTRA
