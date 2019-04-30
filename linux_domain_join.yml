@@ -2,17 +2,8 @@
 
 # This playbook joins a linux server (debian/ubunto) to an active directory domain.
 
-- name: Apply common configuration
-  connection: local
-  hosts: 127.0.0.1
+- hosts: remote
   become: true
-
   roles:
     - common
-
-- name: Apply configuration to newly deployed machines
-  hosts: 127.0.0.1
-  become: true
-
-  roles:
-   - domain_join
+    - domain_join

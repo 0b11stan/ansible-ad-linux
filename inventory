@@ -1,2 +1,2 @@
-[domain_join]
-localhost
+[remote]
+192.168.33.17
