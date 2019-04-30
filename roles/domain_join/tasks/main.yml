@@ -80,6 +80,9 @@
   debug:
     msg: "{{ realm_list_results.stdout }}"
 
+- name: Create kerberos ticket
+  command: echo "P@ssw0rd" | kinit seb
+
 - name: Join system to AD
   expect:
     command: /bin/bash -c "/usr/sbin/realm join {{ realm_domain }} --computer-ou='{{ realm_ad_ou }}' --user={{ kerberos_user }}"
